@@ -67,6 +67,9 @@ body {
   color: var(--p-color);
   text-decoration: none;
 }
+.hero-section {
+  background-color: var(--main-color);
+}
 .hero-title {
   color: #ffffff;
   background-color: var(--main-color);
@@ -77,9 +80,11 @@ body {
   letter-spacing: 0.02em;
 }
 .hero-button {
+  font-family: 'Roboto', sans-serif;
   color: var(--white-color);
   background-color: var(--btn-color);
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   display: flex;
   align-items: center;
