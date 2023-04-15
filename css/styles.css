@@ -13,8 +13,13 @@ body {
   color: var(--p-color);
   background-color: var(--white-color);
 }
+
+.link:hover,
+.link:focus {
+  color: var(--bg-btn-color);
+}
+
 .link {
-  color: var(--main-color);
   text-decoration: none;
 }
 .text-link {
@@ -29,14 +34,24 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
+
 .list {
-  list-style: none;
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  list-style-type: none;
 }
 
 .logo-span {
   color: var(--main-color);
 }
 
+.address.link {
+  font-style: normal;
+  color: var(--p-color);
+  text-decoration: none;
+}
 .hero-title {
   color: #ffffff;
   background-color: var(--main-color);
@@ -115,17 +130,10 @@ body {
 .footer {
   background-color: var(--bg-footer);
 }
-.link {
-  color: var(--main-color);
-  text-decoration: none;
-}
+
 .footer-text {
   color: var(--light-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.address-link {
-  color: var(--p-color);
-  text-decoration: none;
 }
