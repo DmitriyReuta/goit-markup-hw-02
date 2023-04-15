@@ -57,6 +57,10 @@ footer > .text-link {
   list-style-type: none;
 }
 
+.list-team {
+  background-color: var(--white-color);
+}
+
 .logo {
   color: var(--main-color);
 }
