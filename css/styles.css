@@ -14,6 +14,17 @@ body {
   background-color: var(--white-color);
 }
 
+.logo-link {
+  color: var(--btn-color);
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 .link:hover,
 .link:focus {
   color: var(--bg-btn-color);
@@ -43,11 +54,15 @@ body {
   list-style-type: none;
 }
 
+.logo {
+  color: var(--main-color);
+}
+
 .logo-span {
   color: var(--main-color);
 }
 
-.address.link {
+.address-section .address-link {
   font-style: normal;
   color: var(--p-color);
   text-decoration: none;
