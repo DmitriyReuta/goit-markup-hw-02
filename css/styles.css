@@ -9,7 +9,6 @@
   color: #ffffff;
   background-color: var(--main-color);
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -20,17 +19,16 @@
   color: #ffffff;
   background-color: var(--btn-color);
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .about-title {
   color: var(--main-color);
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -39,8 +37,6 @@
 .text {
   color: var(--p-color);
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -48,7 +44,6 @@
 .section-title {
   color: var(--main-color);
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -59,7 +54,6 @@
 .team-title {
   color: var(--main-color);
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -70,10 +64,10 @@
   color: var(--btn-color);
   background: #f4f4fd;
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  cursor: pointer;
 }
 
 .filters-btn:hover,
@@ -103,8 +97,6 @@
 .footer-text {
   color: var(--footer-color);
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
