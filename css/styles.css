@@ -103,7 +103,3 @@ body {
   color: var(--p-color);
   text-decoration: none;
 }
-.address-list:hover,
-.address-list:focus {
-  color
-}
