@@ -9,9 +9,31 @@
 }
 
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto' sans-serif;
+  color: var(--p-color);
+  background-color: var(--white-color);
+}
+.link {
+  color: var(--main-color);
+  text-decoration: none;
+}
+.text-link {
+  color: var(--btn-color);
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo-span {
   color: var(--main-color);
 }
+
 .hero-title {
   color: #ffffff;
   background-color: var(--main-color);
