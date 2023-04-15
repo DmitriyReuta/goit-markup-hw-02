@@ -35,7 +35,7 @@ body {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
 }
-.text-link {
+footer > .text-link {
   color: var(--btn-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
