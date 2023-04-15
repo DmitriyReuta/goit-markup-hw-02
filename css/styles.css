@@ -83,6 +83,7 @@ body {
   font-style: normal;
   color: var(--p-color);
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
 .address-link:hover,
