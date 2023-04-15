@@ -78,7 +78,8 @@ body {
   text-decoration: none;
 }
 
-.address-link:hover {
+.address-link:hover,
+.address-link:focus {
   color: var(--bg-btn-color);
 }
 
@@ -107,6 +108,7 @@ body {
   cursor: pointer;
 }
 .about-title {
+  color: var(--main-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -119,6 +121,7 @@ body {
   letter-spacing: 0.02em;
 }
 .section-title {
+  color: var(--main-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
