@@ -91,6 +91,7 @@ body {
   background-color: var(--bg-footer);
 }
 .link {
+  color: var(--main-color);
   text-decoration: none;
 }
 .footer-text {
