@@ -53,8 +53,6 @@ body {
 }
 
 .list {
-  font-weight: 500;
-  line-height: 1.5;
   list-style-type: none;
 }
 
@@ -79,8 +77,8 @@ body {
 }
 
 .address-section .address-link {
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
   color: var(--p-color);
   text-decoration: none;
   letter-spacing: 0.02em;
@@ -127,7 +125,6 @@ body {
 }
 .text {
   color: var(--p-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
